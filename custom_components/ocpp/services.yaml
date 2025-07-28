@@ -49,7 +49,7 @@ set_charge_rate:
       description: Used to send a custom charge profile to charger (for advanced users only use >- or '' to ensure profile is a string variable)
       required: false
       advanced: true
-      example: '{"chargingProfileId":8,"stackLevel":0,"chargingProfileKind":"Relative","chargingProfilePurpose":"ChargePointMaxProfile","chargingSchedule":{"chargingRateUnit":"A","chargingSchedulePeriod":[{"startPeriod":0,"limit":16}]}}'
+      example: '{"chargingProfileId":8,"stackLevel":0,"chargingProfileKind":"Absolute","chargingProfilePurpose":"ChargePointMaxProfile","chargingSchedule":{"chargingRateUnit":"A","chargingSchedulePeriod":[{"startPeriod":0,"limit":16}]}}'
 
 trigger_custom_message:
   name: Trigger Message
